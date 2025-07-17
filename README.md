@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+🔗 Lynk
+Connecting neighbours with local services
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📖 Overview
+Lynk is a hyperlocal mobile app designed to bring your neighborhood closer — by connecting you with reliable, nearby service providers in just a few taps. Whether you're looking to refresh your space with a fresh coat of paint, tidy up the garden, deep-clean the kitchen, build a custom bookshelf, or find a trusted babysitter for the evening, Lynk helps you find local experts you can count on.
 
-## Get started
+It’s all about making everyday tasks easier — powered by your own community.
 
-1. Install dependencies
+🚀 Features
+👥 Dual User Roles
+Community Members: Discover and book local services
 
-   ```bash
-   npm install
-   ```
+Service Providers: Offer services and manage customer bookings
 
-2. Start the app
+🔧 Core Functionality
+🔍 Service Discovery: Explore service categories and find providers based on your location
 
-   ```bash
-   npx expo start
-   ```
+🧑‍🔧 Provider Profiles: View detailed bios, ratings, reviews, and portfolios
 
-In the output, you'll find options to open the app in a
+💬 In-App Messaging: Chat with service providers in real-time
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📆 Booking System: Schedule and manage appointments with built-in availability
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📍 Location-Based Results: Automatically match users with nearby professionals
 
-## Get a fresh project
+🛠️ Tech Stack
+Frontend
+React Native with Expo
 
-When you're ready, run:
+Backend
+Supabase (Database, Authentication, Realtime, Storage)
 
-```bash
-npm run reset-project
-```
+Key Integrations
+✅ User authentication and role-based access
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📍 Geolocation services
 
-## Learn more
+💬 Real-time messaging
 
-To learn more about developing your project with Expo, look at the following resources:
+🔔 Push notifications
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📁 File uploads for provider portfolios
 
-## Join the community
+📱 User Flow
+1. Register as a Community Member or Service Provider
 
-Join our community of developers creating universal apps.
+2. Browse local service categories (e.g., painting, gardening, cleaning)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3. Discover nearby providers with ratings and reviews
+
+4. Connect using in-app messaging
+
+5. Book appointments directly within the app
+
+6. Leave a review after the service is completed
