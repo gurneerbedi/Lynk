@@ -42,14 +42,14 @@ Key Integrations
 📁 File uploads for provider portfolios
 
 📱 User Flow
-1. Register as a Community Member or Service Provider
+Register as a Community Member or Service Provider
 
-2. Browse local service categories (e.g., painting, gardening, cleaning)
+Browse local service categories (e.g., painting, gardening, cleaning)
 
-3. Discover nearby providers with ratings and reviews
+Discover nearby providers with ratings and reviews
 
-4. Connect using in-app messaging
+Connect using in-app messaging
 
-5. Book appointments directly within the app
+Book appointments directly within the app
 
-6. Leave a review after the service is completed
+Leave a review after the service is completed
