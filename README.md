@@ -1,55 +1,53 @@
-🔗 Lynk
-Connecting neighbours with local services
+ # 🔗 Lynk  
+*Connecting neighbours with local services*
 
-📖 Overview
-Lynk is a hyperlocal mobile app designed to bring your neighborhood closer — by connecting you with reliable, nearby service providers in just a few taps. Whether you're looking to refresh your space with a fresh coat of paint, tidy up the garden, deep-clean the kitchen, build a custom bookshelf, or find a trusted babysitter for the evening, Lynk helps you find local experts you can count on.
+---
 
-It’s all about making everyday tasks easier — powered by your own community.
+## 📖 Overview  
+**Lynk** is a mobile app designed to bring your neighborhood closer — by connecting you with reliable, nearby service providers in just a few taps. Whether you're looking to refresh your space with a fresh coat of paint, tidy up the garden, deep-clean the kitchen, build a custom bookshelf, or find a trusted babysitter for the evening, **Lynk** helps you find local experts you can count on.
 
-🚀 Features
-👥 Dual User Roles
-Community Members: Discover and book local services
+> It’s all about making everyday tasks easier — powered by *your own community.*
 
-Service Providers: Offer services and manage customer bookings
+---
 
-🔧 Core Functionality
-🔍 Service Discovery: Explore service categories and find providers based on your location
+## 🚀 Features  
 
-🧑‍🔧 Provider Profiles: View detailed bios, ratings, reviews, and portfolios
+### 👥 Dual User Roles  
+- **Community Members:** Discover and book local services  
+- **Service Providers:** Offer services and manage customer bookings  
 
-💬 In-App Messaging: Chat with service providers in real-time
+### 🔧 Core Functionality  
+- 🔍 **Service Discovery:** Explore service categories and find providers based on your location  
+- 🧑‍🔧 **Provider Profiles:** View detailed bios, ratings, reviews, and portfolios  
+- 💬 **In-App Messaging:** Chat with service providers in real-time  
+- 📆 **Booking System:** Schedule and manage appointments with built-in availability  
+- 📍 **Location-Based Results:** Automatically match users with nearby professionals  
 
-📆 Booking System: Schedule and manage appointments with built-in availability
+---
 
-📍 Location-Based Results: Automatically match users with nearby professionals
+## 🛠️ Tech Stack  
 
-🛠️ Tech Stack
-Frontend
-React Native with Expo
+### Frontend  
+- React Native with Expo  
 
-Backend
-Supabase (Database, Authentication, Realtime, Storage)
+### Backend  
+- Supabase (Database, Authentication, Realtime, Storage)  
 
-Key Integrations
-✅ User authentication and role-based access
+### Key Integrations  
+- ✅ User authentication and role-based access  
+- 📍 Geolocation services  
+- 💬 Real-time messaging  
+- 🔔 Push notifications  
+- 📁 File uploads for provider portfolios  
 
-📍 Geolocation services
+---
 
-💬 Real-time messaging
+## 📱 User Flow  
+1. Register as a Community Member or Service Provider  
+2. Browse local service categories (e.g., painting, gardening, cleaning)  
+3. Discover nearby providers with ratings and reviews  
+4. Connect using in-app messaging  
+5. Book appointments directly within the app  
+6. Leave a review after the service is completed  
 
-🔔 Push notifications
-
-📁 File uploads for provider portfolios
-
-📱 User Flow
-Register as a Community Member or Service Provider
-
-Browse local service categories (e.g., painting, gardening, cleaning)
-
-Discover nearby providers with ratings and reviews
-
-Connect using in-app messaging
-
-Book appointments directly within the app
-
-Leave a review after the service is completed
+---
