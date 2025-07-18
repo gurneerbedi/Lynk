@@ -13,28 +13,42 @@ export default function RootLayout() {
 const App = () => {
  
   const router = useRouter();
-  const {status} =useUser();
+  const {status, role} = useUser();
 
   useEffect(() => {
-    if (status == "authenticated") {
-      router.replace("/home");
+    if (status === "authenticated") {
+      if (role === null) {
+        router.replace("/role");
+      } else {
+        router.replace(role === "provider" ? "/provider-dashboard" : "/home");
+      }
     }
-
+  
     if (status === "unauthenticated") {
       router.replace("/landing");
     }
-  }, [status]);
+  }, [status, role]);
+  
+  // useEffect(() => {
+  //   if (status == "authenticated") {
+  //     router.replace("/home");
+  //   }
+
+  //   if (status === "unauthenticated") {
+  //     router.replace("/landing");
+  //   }
+  // }, [status]);
 
   return (
     <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen
         name="home"
         options={{
-          title: "Home Sweet Home",
+          title: "Home",
           headerShown: true,
           headerTitleAlign: "center",
           headerStyle: {
-            backgroundColor: "#4B9CD3",
+            backgroundColor: "#7B5ACF",
           },
           headerTintColor: "white",
           headerTitleStyle: {
@@ -42,6 +56,22 @@ const App = () => {
           },
         }}
       />
+        <Stack.Screen
+        name="services"
+        options={{
+          title: "Services",
+          headerShown: true,
+          headerTitleAlign: "center",
+          headerStyle: {
+            backgroundColor: "#7B5ACF",
+          },
+          headerTintColor: "white",
+          headerTitleStyle: {
+            fontWeight: "bold",
+          },
+        }}
+      />
+      
     </Stack>
   );
 };

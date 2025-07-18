@@ -10,7 +10,7 @@ export default function Button({ text, onPress = () => {} }: ButtonProps) {
     <Pressable
       style={({ pressed }) => [
         styles.button,
-        pressed && { backgroundColor: "#d00" }, // red when pressed
+        pressed && { backgroundColor: "#E6E0F8" }, // red when pressed
       ]}
       onPress={onPress}
     >
@@ -24,8 +24,10 @@ const styles = StyleSheet.create({
     marginTop: 20,
     paddingHorizontal: 20,
     paddingVertical: 12,
-    backgroundColor: "#1E90FF",
+    backgroundColor: "#7B5ACF",
     borderRadius: 6,
+    borderColor: "#7B5ACF",
+    borderWidth: 2,
   },
   buttonText: {
     color: "#fff",
