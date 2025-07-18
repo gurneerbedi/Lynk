@@ -1,7 +1,7 @@
 import { GoogleSignin, isErrorWithCode, isSuccessResponse, statusCodes } from "@react-native-google-signin/google-signin";
 
 GoogleSignin.configure({
-  iosClientId: "518878153535-kp4sif7bv9gqobsp1gb6qlt8vmougu5j.apps.googleusercontent.com",
+  iosClientId: "518878153535-qup71umq0h6ak8kj3vmvm5go0cpvhmlp.apps.googleusercontent.com",
 });
 
 export async function signInSilently() {
@@ -12,12 +12,14 @@ export const signIn = async () => {
   try {
     await GoogleSignin.hasPlayServices();
     const response = await GoogleSignin.signIn();
+    console.log(response);
     if (isSuccessResponse(response)) {
       return response.data.user;
     } else {
       // sign in was cancelled by user
     }
   } catch (error) {
+    console.log(error);
     if (isErrorWithCode(error)) {
       switch (error.code) {
         case statusCodes.IN_PROGRESS:

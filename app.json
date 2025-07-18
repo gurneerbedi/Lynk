@@ -8,6 +8,7 @@
     "scheme": "lynk",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.gbedi23.Lynk",
@@ -36,6 +37,12 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.518878153535-qup71umq0h6ak8kj3vmvm5go0cpvhmlp"
         }
       ]
     ],
